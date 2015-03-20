@@ -5,7 +5,7 @@ $(document).ready(function(){
   })
  $('#Empty').on('click', function(){
     var entry = $('input').val();
-    $('ul').remove("li");
+    $('ul').empty();
   })
   
 });
